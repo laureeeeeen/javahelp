@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de atributos</title>
+</head>
+<body>
+    <h1>Cadastro SENAI</h1>
+    <form action="" method="post">
+        Nome <input type="text" id="nomeCompleto" placeholder="Insira seu nome completo" required><br>
+        E-mail <input type="email" id="emailDoCliente" placeholder="Insira seu email" required><br>
+        Celular <input type="tel" id="celularDoCliente" placeholder="(00) 00000-0000"> <br>
+        Data de Nascimento <input type="date" id="nascimentoDoCliente" min="2010-12-30" required> <br>
+        Categoria <br>
+        <input type="radio" name="unico"> Aluno <br> 
+        <input type="radio" name="unico"> Professor <br> 
+        <input type="radio" name="unico"> Funcionário <br>
+        Área de Interesse <br>
+        <input type="checkbox"> T.I <br>
+        <input type="checkbox"> Mecatrônica <br>
+        <input type="checkbox"> Elétrica <br>
+        Selecione a unidade desejada <select required>
+<option>Senai Sorocaba - Santa Rosália</option>
+<option>Senai Sorocaba - Avenida Itavuvu</option>
+<option>Senai Itu</option>
+<option>Senai Porto Feliz</option>   
+</select> <br>
+        Insira sua Foto <input type="file" required> <br> <br>
+        <button type="submit">Enviar Cadastro</button>
+        <br><br><br><br><br>
+    </form>
+</body>
+</html>
